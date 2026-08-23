@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Broodsky Games</title>
+<meta name="description" content="Broodsky Games — 오목 챌린지를 비롯한 게임을 만듭니다.">
+<style>
+  :root {
+    --bg: #070b18; --panel: #131c31; --border: #2c3a58;
+    --text: #e6edf7; --muted: #8b9bb5; --accent: #38bdf8; --gold: #fcd34d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "Segoe UI", Pretendard, -apple-system, "Noto Sans KR", sans-serif;
+    line-height: 1.75; word-break: keep-all;
+    padding: clamp(28px, 6vw, 72px) clamp(18px, 5vw, 24px);
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 48px; }
+  .kicker {
+    font-size: 0.85rem; font-weight: 800; letter-spacing: .2em;
+    color: var(--accent); margin-bottom: 10px;
+  }
+  h1 {
+    font-size: clamp(1.9rem, 6vw, 2.6rem); letter-spacing: -.02em;
+    margin-bottom: 12px;
+  }
+  header p { color: var(--muted); font-size: clamp(.95rem, 2.6vw, 1.05rem); }
+  h2 {
+    font-size: clamp(1.05rem, 3.4vw, 1.25rem); color: var(--accent);
+    margin: 44px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 22px; margin-bottom: 14px;
+  }
+  .card h3 { font-size: 1.1rem; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: .95rem; margin-bottom: 14px; }
+  a { color: var(--accent); }
+  .btn {
+    display: inline-block; text-decoration: none; font-weight: 700; font-size: .92rem;
+    background: var(--accent); color: #06121f;
+    padding: 9px 16px; border-radius: 8px; margin-right: 8px;
+  }
+  .btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--border); }
+  ul { padding-left: 20px; color: var(--muted); }
+  li { margin: 6px 0; }
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: .88rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="kicker">BROODSKY GAMES</div>
+    <h1>혼자서도 깊이 파고들 수 있는 게임을 만듭니다</h1>
+    <p>서버 없이 기기 안에서 동작하고, 인터넷이 없어도 끝까지 즐길 수 있는 게임을 목표로 합니다.</p>
+  </header>
+
+  <h2>출시한 게임</h2>
+
+  <div class="card">
+    <h3>오목 챌린지</h3>
+    <p>보스 30명을 차례로 꺾어 나가는 오목 게임. 인간계 10단계를 넘으면 신계가, 그다음 신들의 전쟁이 열립니다. 보스마다 AI의 판단 기준이 달라 같은 방식으로는 끝까지 갈 수 없습니다.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.broodsky85.omokchallenge">Google Play</a>
+    <a class="btn ghost" href="https://broodsky85-ai.github.io/minigamegroup/omok.html">웹으로 해보기</a>
+  </div>
+
+  <h2>웹으로 즐기는 미니게임</h2>
+  <div class="card">
+    <p>설치 없이 브라우저에서 바로 되는 게임들입니다.</p>
+    <ul>
+      <li><a href="https://broodsky85-ai.github.io/minigamegroup/">전체 목록</a></li>
+      <li><a href="https://broodsky85-ai.github.io/minigamegroup/kingdom30.html">멸망까지 30일</a> — 왕국 경영 생존</li>
+      <li><a href="https://broodsky85-ai.github.io/minigamegroup/hero.html">여명의 서약</a> — 도트 SRPG</li>
+    </ul>
+  </div>
+
+  <h2>문의와 정책</h2>
+  <div class="card">
+    <ul>
+      <li>이메일: <a href="mailto:broodsky85@gmail.com">broodsky85@gmail.com</a></li>
+      <li><a href="https://broodsky85-ai.github.io/minigamegroup/privacy.html">개인정보처리방침</a></li>
+      <li><a href="https://broodsky85-ai.github.io/minigamegroup/delete-account.html">계정 및 데이터 삭제</a></li>
+    </ul>
+  </div>
+
+  <footer>© 2026 Broodsky Games</footer>
+</main>
+</body>
+</html>
