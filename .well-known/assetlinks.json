@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.broodsky85.omokchallenge",
+      "sha256_cert_fingerprints": [
+        "F4:DC:37:94:67:67:6B:D0:06:EC:9F:2B:EC:F9:31:0D:FC:74:29:06:19:05:F3:93:A0:FE:2C:96:6B:C9:33:8B"
+      ]
+    }
+  }
+]
